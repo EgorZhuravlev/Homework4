@@ -8,7 +8,7 @@ bool isParsedA = int.TryParse(Console.ReadLine(), out int A);
 bool isParsedB = int.TryParse(Console.ReadLine(), out int B);
 if (!isParsedA || !isParsedB)
 {
-    Console.WriteLine("Координаты ввели не корректно");
+    Console.WriteLine("Данные ввели некорректно");
     return;
 }
 
